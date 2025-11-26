@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(159, 157, 157);
+}
+body, ul, h1, p {
+
+    font-family: "Space Grotesk", sans-serif;
+
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+  background-color: rgb(222, 219, 215);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    display: block;
+    color: rgb(99, 99, 99);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.navbar li a:hover {
+    background-color: rgba(244, 244, 244, 0.533);
+    color: black;
+    transition: 1s;
+    
+}
+
+div#sobremim{    
+    color:black;
+    background-color: rgb(120, 116, 128);
+    text-align: center;
+    margin-top: 50px;
+}
+
+div#sobremim a {
+    text-decoration: none;
+}
+
+.container{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.caixa-link{
+    display: block;
+    width: 200px;
+    padding: 15px;
+    background: #807e8d;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.caixa-link:hover{
+    background: #6c6f89;
+    color: black;
+}
+h1, h3{
+    color: black;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: lighter;
+    margin-top: 65px;
+    margin-bottom: -20px;
+    text-align: center;
+
+}
+p{
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Space Grotesk", sans-serif;
+}
+.text{
+    
+    width: 50vw;
+    margin: auto;
+}
+
+input[type=text], textarea{
+    font-family: "Space Grotesk", sans-serif;
+    width: 250px;
+    padding: 10px;
+    border: 2px solid #888;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+.form{
+
+    margin-top: 30px;
+    text-align: center;
+}
+
+input[type=text]:focus{
+    border-color: #9a9afc;
+    box-shadow: 0 0 8px rgba(123, 123, 232, 0.4);
+}
+#mensagem{
+    height: 80px;
+}
+textarea{
+    font-family: "Space Grotesk", sans-serif;
+    width: 250px;
+    height: 150px;
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #888;
+    border-radius: 12px;
+    resize: none;
+}
+
+textarea:focus {
+    border-color: #9a9afc;
+    box-shadow: 0 0 8px rgba(123, 123, 232, 0.4);
+}
